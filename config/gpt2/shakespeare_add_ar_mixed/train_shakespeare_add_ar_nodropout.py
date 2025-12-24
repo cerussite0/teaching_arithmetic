@@ -6,7 +6,7 @@ eval_interval = 1000 # keep frequent because we'll overfit
 eval_iters = 200
 log_interval = 10 # don't print too too often
 
-wandb_log = True # override via command line if you like
+wandb_log = False # override via command line if you like
 wandb_entity = 'ssdd'
 wandb_project = 'gpt2-jt-shakespeare-add-ar-mixed'
 wandb_run_name = 'gpt2-mixed'

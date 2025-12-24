@@ -53,7 +53,7 @@ prompt2 = ''
 prompt3 = ''
 prompt4 = ''
 
-wandb_log=True
+wandb_log=False
 wandb_entity = 'ssdd'
 wandb_project = 'addition'
 wandb_run_name = 'num_train-mini-gpt-padded'

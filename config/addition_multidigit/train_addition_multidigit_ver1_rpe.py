@@ -46,7 +46,7 @@ device='cuda:0'
 init_from = 'scratch'
 ckpt_path_name = f'ckpt_{num_digit}digit_lr{learning_rate}.pt'
 
-wandb_log = True # override via command line if you like
+wandb_log = False # override via command line if you like
 wandb_entity = 'ssdd'
 wandb_project = 'addition_multidigit'
 wandb_run_name = f'rpe-ver1_{num_digit}digit_lr{learning_rate}'

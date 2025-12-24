@@ -31,7 +31,7 @@ dataset = 'shakespeare_addition_char'
 batch_size = 64
 analyze = False
 
-wandb_log=True
+wandb_log=False
 wandb_entity = 'aegean-transformers'
 wandb_project = 'addition-char'
 wandb_run_name = 'num_train-mini-gpt-padded'

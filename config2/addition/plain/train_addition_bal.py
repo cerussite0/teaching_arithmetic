@@ -8,7 +8,7 @@ log_interval = 10
 always_save_checkpoint = False
 
 # ===== Wandb logging ===== #
-wandb_log = True # override via command line if you like
+wandb_log = False # override via command line if you like
 wandb_project = 'addition'
 wandb_run_name = 'addition_plain'
 
